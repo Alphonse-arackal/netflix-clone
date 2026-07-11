@@ -27,7 +27,7 @@ body{background:#000000;font-family:Roboto,sans-serif}
 }
 
 @media (max-width: 991px) {
-    .netflix-nav {
+    .nav-menu {
         display: none;
     }
 }

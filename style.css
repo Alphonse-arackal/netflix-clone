@@ -26,12 +26,6 @@ body{background:#000000;font-family:Roboto,sans-serif}
     padding:17px 0;
 }
 
-@media (max-width: 991px) {
-    .nav-menu {
-        display: none;
-    }
-}
-
 
 
 .netflix-nav .container{

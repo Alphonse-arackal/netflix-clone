@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Netflix Home</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<nav class="navbar netflix-nav">
+    <div class="container">
+
+        <a href="#" class="logo"><img src="https://imgs.search.brave.com/oYbfpleWnYi75-s34xROw9q28nR-L81F3LopOIER0lA/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/ZnJlZXBuZ2xvZ29z/LmNvbS91cGxvYWRz/L25ldGZsaXgtdHYt/bG9nby1wbmctOS5w/bmc" alt="" width="120px"></a>
+
+        <ul class="nav-menu d-none d-lg-flex ms-4">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">New & Popular</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <!-- <span>Children</span> -->
+            <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/SO2HoVCx33X8phZh2pZZmQ4QgNY/AAAABYOkn83gTTu_fNHrT3TXTos4O6kCGNlG1rDOWWeNOBMsBOAWx7xVaqKG96eWC-u1QdJ_4HSDttdPSB6vAOx3cDRce7umIg7axg.png?r=c3c" class="avatar" alt="Profile">
+        </div>
+
+    </div>
+</nav>
+
+<section class="container-fluid hero-wrap">
+<div class="hero">
+<video autoplay  loop playsinline poster="./images/spy.jpg">
+<source src="/images/blast1.mp4" type="video/mp4">
+</video>
+<div class="overlay"></div>
+<div class="content">
+<h1 class="title"></h1>
+<p>Action • 2026 • 2h 21m • U/A 16+</p><br>
+<div class="buttons">
+<button class="btn btn-light btn-lg">▶ Play</button>
+<button class="btn btn-secondary btn-lg">More Info</button>
+</div>
+</div>
+<div class="mute">🔊</div>
+</div>
+</section>
+
+<!-- <section class="container text-white py-4">
+<h2>Today's Top Picks for You</h2>
+<div class="row g-3 mt-2">
+<div class="col-md-3"><div class="card-placeholder"></div></div>
+<div class="col-md-3"><div class="card-placeholder"></div></div>
+<div class="col-md-3"><div class="card-placeholder"></div></div>
+<div class="col-md-3"><div class="card-placeholder"></div></div>
+</div>
+</section> -->
+
+
+
+<section class="netflix-sections py-5">
+
+    <!-- Today's Top Picks -->
+    <div class="content-row mb-5">
+        <h2 class="section-title">Today's Top Picks for You</h2>
+
+        <div class="movie-row">
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABbwTbznkbwCuJoOvOLu-ZevcuRQuWuJEY5pYbFG3heODDS1BCThDjOeSJbKn4VVKQ6nErdJAw4i6RVZ2ybiHXMOBphYIfB_rzZ7UXNyY0Fty1cBOcbHghXfuq2YQ6f5Riwb3EamEAbbpmgz9qZapqZ8rduxbd5C2kvx322mOLEP_XFHbB7W5ceP5j6le5qz96aqisbso6pVF1u_Erx-6gXiRxbyIzGEyk1w.jpg?r=ef7" alt="">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABTpmpqGXZBik-Xf_XUP-lfiPPnqLeisV0zRRqcyu9EeavB0XzBYUxbFRQcEGshymvZKl-ODw00H4VoNhJxGkGt1-R085Oy04uFpK.webp?r=5b7" alt="">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABbiqhmaeGwmTGg6TX3Ol0gydJzEV4wMQin44l4oRpl1nBszvrvKZGYl0J8Yah3ki58ZbG8jkLILKDrNkfKo3SkC-YuypWcXfQ6AXyP8ihMyiS78qXD5Lp5EuftIQ0-3vaqiWECSoVO4GiGaH8i81rinD31EXgSxCaD5CY9xMjgMovkofzGJwPq3Qv6oP73ZpdPzcBmeU5LxFLaIRDfMKBnPzCUfeNQBgwacHDUFN.webp?r=f85" alt="">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABd9b_LT5rEEN3YG8FWSA7trv0FwvmcXWrQVj2U5wLAdScKgk-rtH7fLnRVofwL_WlXRZAOieQKhlTD7jnOgfRwi9LmMCvb98P8Nk.webp?r=b15" alt="">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABY4s7eE744X6Dzft5k7WJBFQVMtNNqu3F4jFnenv2MMGC3FKvhB8cVhYJqAQjq4I9AmcgWYWYY1CbkN3VGiilQJ8szSi55LsFn_HoD_hvB9SATxEI-9PwBhY-FybKI5jX9bbaywUb1jQatLz1e1kHkCpBPF1hljHXD1zWxOcgY28NCrnaJ2xdpRAq_Vmzadi0oG4SJrgpPRKS1SMc818RWLVz_szrwI1rSERKT7R5Uc0vS-kqo3a-Ty-nCJL7iOmIOzMg7PXTyLoeDfD8C9UlCmBQ9vp6Tlp-JXOqi7qpsfru-VIoJzRtmSneKdB6r7f3C6Md0xd13lQLzdj9ok7JffuGjFVZvx2GN51B7OYoBC8gpdFx5nk3Amb.jpg?r=865" alt="">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABaxdR6U5-Wc68LHkTZVNQqLVhKlLSD9xxm5XAowySbH0OkcKAcsNlIH4FHG9DoOg5Oq-EuSZYHCGpkFhM4kFu7SkhNmzNPYB8mJKR0Rt55MZYAm0aCfaqRqsW0dFHn1k3nogExJzRxGdd0cF6hN7Imen5Ef_W-76hGtbAGHFMyFalh5ePdPIebBp7mEHlvU-qSRMrzLBz_lKvrHYRfh8EbYC6sEszCqgwdhx69A.webp?r=853" alt="">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABaxdR6U5-Wc68LHkTZVNQqLVhKlLSD9xxm5XAowySbH0OkcKAcsNlIH4FHG9DoOg5Oq-EuSZYHCGpkFhM4kFu7SkhNmzNPYB8mJKR0Rt55MZYAm0aCfaqRqsW0dFHn1k3nogExJzRxGdd0cF6hN7Imen5Ef_W-76hGtbAGHFMyFalh5ePdPIebBp7mEHlvU-qSRMrzLBz_lKvrHYRfh8EbYC6sEszCqgwdhx69A.webp?r=853" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Recommended -->
+    <div class="content-row mb-5">
+
+        <h2 class="section-title">
+            Because you watched My Hero Academia: You're Next
+        </h2>
+
+        <div class="movie-row">
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABciXKdfSc_Y8hDQQ7iIRDusja6kw7CmHFMdrywWBseQF1YvN3ezf1K6Fhv8d0q7tlTBI7Yy0fa6sbxvy2SndX1kj-fm0beEPKMCJ8BRkKwxR3djfmd-dNlNXssZ0_YZYe-7WoQdKlXdDTsB_gUPn8qb7JUgWPPs4R4a1FvrShgVIIsFiPNVkhTcFcrTd8mZliM36Q-U1JqCA7SeawSpAkbY1e3oIA_SqK9KVff8dJF5Tesiw3W28kRQGOrzsKwskcW7AmZ14pgLt1rcYEyadtmyaIVZvKLZIvEB7ByWQQk_CerIy9m7Ziq1WxSCQ.webp?r=3c1">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABWq6dquYUc7WGDrgJjnxn7pekzm9cGNfKswiSWikVWt79vCR2UJcxQFrR9aFH6bHRHUjMywjvprG_FrfKhzOtNip3tzRSUbYxIg.webp?r=b9d">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABRUckVTGNke9yqOTx_9BxzGWZC4qq296fCQ6i1M4HVKFLRUp9-n3Nb8Lq4cXb-gapUW2lNalILcNcIcoUmCao_hUj8LaoyxB3rAf.webp?r=17d">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABVkO3oN_Cul8rQDV4vlKnPcDl65jvLD8JR_2MU-hSo-WNxzqQrml_S32gxhAR6EpUjRn1W5O2a6hYCWFVz0IU6tzPWdMIkYx8sU.webp?r=495">
+            </div>
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABR5URZsFzgGi3eiRrMzXsdCD_3XeaQFgdYQ0LArKIAmtAI_KTN_u_HKgCIcHiDGgiVoXrV-hJTTbKC2jQIxffjZhazAlaD687VE2c1YMHy1Ayrl4iPY-kIai5l-xhg6bVBSshqKmfH3VDkp8i0TJSEggLhbXxybYw0wfHOo.webp?r=197">
+            </div>
+
+   <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABTudBNLnVarnpLQvXqdSHum2zsMbaYu1fX6fJVeB-utXgWI7NBDt8qftis9w5feuBCzksF4jw8ro25pFgCrbc8AXN67OOvru4Ek.webp?r=75d">
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Continue Watching -->
+
+    <div class="content-row">
+
+        <h2 class="section-title">
+            Continue Watching for Alphonse Arackal
+        </h2>
+
+        <div class="movie-row">
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABXh7bFEtdounR9n-oPAVVGWxL7FG01gGW8igTM34EbpK0zRn2Ow6W4rmMg-CMV3hGFyeEEN6bHPwyY-c-yb4DQesFN7PzO2qQapl.webp?r=580">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABVq43-zGyj7ksknITSVwMc0RBcpV2C9eUDfVt36x8FDKwg87xpybswXxuBWh4dlqs0kQLl9ojbMo0zfWHql1YsJ8qD81JMlh2l8.webp?r=196">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABXLKq-_IgzAtLfKQ_HgJGxtAY3Sr7GAHjuX76biIOwZfH_8IQmZG7yR-d2dA6yQ-2tDBPkav6bUfRYg7DxTjxbnogaNZwmGOSrdgR5_7JzhrH8SDy45MmPa-A47cHbhxlcdm76hCRyGVzcvdSogqit5iUiKYsj8TxncJ.jpg?r=b3b">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABStHOHFxbrSJV80gWeoChEMjdinXL4loau9tMMiLkkLj_0agQpPiN8XpYqpXBehaorwXqdKd4KBuR4EV64AkdyWgo2FeOrIPgGw.webp?r=7c0">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABb_Hq9TbPf3ZxjhYcYFJJoW0c5_TcKvryYj6zocedor_PPJooTk71An0qaQE6v5qfGQEwwyYFdPoS4UDHyVWA9nqZXPBrJsh7bbJ.webp?r=a11">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABarmyujqlKeJSoztLVAm12DqPCqn9ybLWJfu3SQfzX6g2e_B5BYNLgOnDU5IBpisjd6EiWhreFlj1ezbC3Jz_wUmrbilGG8Gs7w.webp?r=c05">
+            </div>
+
+        </div>
+
+    </div>
+    <br> <br>
+    <!-- Only on Netflix -->
+
+    <div class="content-row">
+
+        <h2 class="section-title">
+            Only on Netflix
+        </h2>
+
+        <div class="movie-row">
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABS6RH9WRjum1AU99cA3aOXmA_rP-IPLAn4s4b_zBoJLKbf8UiZleXYZT2-ZistliZU2P30EK5RRBKTXyAGrvdz6vAHGF5HunyR2Q.jpg?r=776">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABQR_1b9Hg24b55hvXw7fCICsnyWuFqxjBPoJR7OLMekJw7rVG5RLNrGCKvLNdrJzGKUtB55xa4h0QX5C7lSGy-oTPyba4nMv8ulG.jpg?r=15c">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABV1eqpaYKzxTFHyjIKOQZmYeDTXxvZxhv_DXql6vHc9wEhv_ES6vxfSO0y50et1uN2U8w_dTpNPRrd0ZPZVdabU3NW1vFo9-ia8.webp?r=807">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABRD969KLP9mm-dTlqT4BAI9QzzWVwi6UySRKDQkRT-26tpfdNydtY331-sGOp5gpWLxroizEfGYukizleUGInvBozfjpUGy1qYBd.jpg?r=a8a">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABWOK_hvrjszri7ZpeC7W3XpNVlHxeNptrPsH3Si-VmAPAb3d7XCxkcp0-hEkkXqKKJCRFOxQY7B-cr8EKi3RQCeRWQLDssSqMvs.webp?r=44b">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABQwZ-Rz2O1aZqszKDEs06nSSLGiKpU-SjEGLKN_xx5lIaYncmnYAT-xVJvbiE3C93D01MdyWw7JEt-ZO0EqUbLm6r6u65vU311n6.jpg?r=fb8">
+            </div>
+
+        </div>
+
+    </div>
+    <br> <br>
+    <!-- Anime based on Manga -->
+
+    <div class="content-row">
+
+        <h2 class="section-title">
+            Anime based on Manga
+        </h2>
+
+        <div class="movie-row">
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABZMYcuKysR4CzAIIFdbH67cHY8eTegaRDock3e3-5DAqTZ5TKvfCjcbvITi8v32tjN_fJzlAtt0G8iRQHKPjYy8qbgub5j0VDNQ.webp?r=f44">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABUABFJYI_51R2DO88jMtFkZ1972Qgo7DlXtS0Najkt_Bo16F6jPZXSVq9zOAvXXUxlOtpUno2MuGxzHyjuqzE-v9wVLkMACclbQYHauqjX6C_ed-8XXxWnQyo93_LXhQT5qFq2Ex5A7Nea3sQTtQITlp19AuOj-JyYOHcAuke96QDUGqvR7LT8OkrHzcnLDQ4VDl3x2Y3P_FHVlg_A-HTDqU-IA-FSyertuZcMAznReLd-pSE5y1rdMVgtY68eZKqLTZ6sglSsov1XrofUf6_2ez_vKSdh0ri4NUExAsgKEALCszsswpDkVY1uG-6g.webp?r=633">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABUTiFz0g-u7hwiTmPiJC4XoclRAzwr-LuKDrvYiuZk4MTiLBwMQ-AB4yjibYbqLe6v1fx2PfliNHYPqnZCrVDp5mBvrxQyNQx28.webp?r=c46">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABYoxWvqxNlsbxRjxHiSG26AfFwi1L0mmV8LX-ZxxWbysLoJuhtkdmS2kTHa6PSud8ps58BdSRZL-o3qEUP6v-NV74FJAQUGwo9w.webp?r=460">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABXBSMRnOSyfkgHQDA9vZBD9HYZTWo1_vOex-9mJLFEEHAtkRrgOAYfGPrYWTxcpANRxv49tSpNibsBbYDN5P2PnvwqklCa4EJzgrdJihu2Dp3Drz3oYKrDByl5ZQy2hn-sdZRmN1r8iVllQCPTwg2i7emucIJmaICd7xhULNslvOVHYS6yjIScSjJWPWvE6MOro3PxVQ1atHEIBIWefUqzwE_oAhie575_MxuxQ-3SUE4qrHFOZo4-JRMEFxl1LbgaT07y2pI8WQKyUUzWWWEZUbuwJUYJqnSe1p1rPtyyf12ahZaJielvAjISksAQ.webp?r=dab">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABZka6rvEjC4MQavTVGQun1pyzl_C7WE6eC7tz5n55yPjUyJFPDAD2VlHyfCMnwhCsFnJ2BsBc_6mspga4XG5PMtP1GRZitAAcUg.jpg?r=78d">
+            </div>
+
+        </div>
+
+    </div>
+    <br> <br>
+
+    <!-- For the Child in All of Us -->
+
+    <div class="content-row">
+
+        <h2 class="section-title">
+            For the Child in All of Us
+        </h2>
+
+        <div class="movie-row">
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABTfhAl8WzcyWDtAKTQ7Yd4XQm98UfrKIboyKHj05iKD3u7d1rTCbwW_thl62l09urBre9wYQgZSXdS9u-drHcFA2A73dyd8XzR8.webp?r=d1f">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABdHuRyeAo7kC08kCQIdPKe_80T-Wx_bEZ8U5Lo0Y6_j787LQ7MJRZR2IDKtn_R3L5vsKhgZlHKgnwla3ceLLALEtkRDqWa1rqVdE.jpg?r=c27">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABX56cHrfP5U3ov6FD_XdFCi_903IegiuNv_Q_C1nL0zKkZKumc6yGvMkr2UginwL3mysxHOO9czoustKQr9o1OhnxNVetmXe3Gg.webp?r=3bd">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABTmt7EP121WjumEYWYXjEj4m1fuXTNQb3p7SHR9JBQXkAf6ZJoPUZkjqAPY3r4ALjOKzQvUpCTvFDDH2OI5Skpw5aFbV0A5ADrU.webp?r=171">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABUTPmEDma00U0u7ySbepuXqJEOP7gKcVJ5NRGpp2rELBFjNv-kyvngT02bbjdb6Mol00hYrDKqqOHyNFzJrYoYuwGGkV6F_F5VPh.jpg?r=431">
+            </div>
+
+            <div class="movie-card">
+                <img src="https://occ-0-3195-3663.1.nflxso.net/dnm/api/v6/0Qzqdxw-HG1AiOKLWWPsFOUDA2E/AAAABXj6VXDLZBO2JybBI8kow35Rvz4XDMBo_ihHuBLTU7T9qkJlZYS-VimHkjMfZwIGhqMSDwL4akNxgLD_VDio89wWBqVBKKGrr0g.webp?r=864">
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="footer-links">
+
+            <div class="column">
+                <a href="#">Audio Description</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Legal Notices</a>
+            </div>
+
+            <div class="column">
+                <a href="#">Help Centre</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookie Preferences</a>
+            </div>
+
+            <div class="column">
+                <a href="#">Gift Cards</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Corporate Information</a>
+            </div>
+
+            <div class="column">
+                <a href="#">Media Centre</a>
+                <a href="#">Privacy</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+        </div>
+
+        <!-- Bottom -->
+        <div class="footer-bottom">
+            © 1997–2026 Netflix, Inc.
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
+</body>
+</html>

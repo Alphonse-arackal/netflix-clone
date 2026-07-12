@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Profiles</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#141414;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    text-align:center;
+}
+
+.container h1{
+    font-size:64px;
+    font-weight:400;
+    margin-bottom:60px;
+}
+
+.profiles{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    flex-wrap:wrap;
+}
+
+.profile{
+    width:170px;
+    cursor:pointer;
+}
+
+.profile img{
+    width:170px;
+    height:170px;
+    border-radius:4px;
+    object-fit:cover;
+    transition:.25s;
+    border:3px solid transparent;
+}
+
+.profile p{
+    color:#808080;
+    margin-top:15px;
+    font-size:26px;
+    transition:.25s;
+}
+
+.profile:hover img{
+    border-color:#fff;
+}
+
+.profile:hover p{
+    color:#fff;
+}
+
+.add-profile{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.add-icon{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    background:#808080;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:.25s;
+}
+
+.add-icon i{
+    font-size:80px;
+    color:#141414;
+}
+
+.add-profile:hover .add-icon{
+    background:#fff;
+}
+
+.manage-btn{
+    margin-top:90px;
+    padding:18px 45px;
+    background:transparent;
+    color:#808080;
+    border:1px solid #808080;
+    font-size:26px;
+    letter-spacing:2px;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.manage-btn:hover{
+    color:white;
+    border-color:white;
+}
+
+/* Tablet */
+@media(max-width:900px){
+
+    .container h1{
+        font-size:48px;
+        margin-bottom:40px;
+    }
+
+    .profiles{
+        gap:25px;
+    }
+
+    .profile{
+        width:140px;
+    }
+
+    .profile img,
+    .add-icon{
+        width:140px;
+        height:140px;
+    }
+
+    .profile p{
+        font-size:20px;
+    }
+
+    .manage-btn{
+        font-size:22px;
+    }
+}
+
+/* Mobile */
+@media(max-width:600px){
+
+    .container h1{
+        font-size:38px;
+    }
+
+    .profiles{
+        gap:20px;
+    }
+
+    .profile{
+        width:120px;
+    }
+
+    .profile img,
+    .add-icon{
+        width:120px;
+        height:120px;
+    }
+
+    .profile p{
+        font-size:18px;
+    }
+
+    .add-icon i{
+        font-size:55px;
+    }
+
+    .manage-btn{
+        margin-top:60px;
+        font-size:18px;
+        padding:14px 35px;
+    }
+}
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Who's watching?</h1>
+
+    <div class="profiles">
+
+        <div class="profile">
+            <img src="/images/one.jpg" alt="">
+            <p>joyboy</p>
+        </div>
+
+        <div class="profile">
+            <a href="/index.html">
+                <img src="/images/two.jpg" alt="">
+            </a>
+            <p>Alphonse arackal</p>
+        </div>
+
+        <div class="profile">
+            <img src="/images/three.jpg" alt="">
+            <p>Kids</p>
+        </div>
+
+        <div class="profile add-profile">
+            <div class="add-icon">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <p>Add Profile</p>
+        </div>
+
+    </div>
+
+    <button class="manage-btn">Manage Profiles</button>
+
+</div>
+
+</body>
+</html>
